@@ -146,7 +146,7 @@ PennController.FeedItems( PennController.GetTable( "SW-datasource-AH-bel.csv" ).
     .log("mcpred", item.mcpred) 
   //  .log("Stims", item.Stims)   
     .log("source", PennController.GetURLParameter("source"))  
-    .log("PROLIFIC_PID", PennController.GetURLParameter("PROLIFIC_PID")) ß
+    .log("PROLIFIC_PID", PennController.GetURLParameter("PROLIFIC_PID")) 
 
 );
 
